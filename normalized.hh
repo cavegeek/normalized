@@ -12,6 +12,7 @@ public:
   T const & operator*() const { return val; }
   T const * operator->() const { return &val; }
   operator T const &() const { return val; }
+  operator T() const { return val; }
 };
 
 #endif
