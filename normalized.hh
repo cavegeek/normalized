@@ -1,7 +1,7 @@
 #ifndef INCLUDED_NORMALIZED_HH
 #define INCLUDED_NORMALIZED_HH
 
-//! A Normalized<T, f> is a T that has been normalized by normalize.
+//! A T that has been normalized by normalize.
 template <typename T, T (&normalize)(T const &)>
 class Normalized {
   T val;
